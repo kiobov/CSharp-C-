@@ -65,3 +65,15 @@ class SquareRoot
         Console.WriteLine(Math.Round(Math.Sqrt(number5), 2));
     }
 }*/
+/*6. Write a program that reads your age from the console and prints your 
+age after 10 years. 
+class Agecalculator
+{
+    static void Main()
+    {
+        Console.Write("Age= ");
+        int age = int.Parse(Console.ReadLine());
+
+        Console.WriteLine("I am {0} years old in the next year i will be {1} years old", age, age+10);
+    }
+}*/
