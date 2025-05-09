@@ -77,7 +77,3 @@ class Agecalculator
         Console.WriteLine("I am {0} years old in the next year i will be {1} years old", age, age+10);
     }
 }*/
-
-Nullable<int> i6 = null;
-int yu = i6;
-Console.WriteLine(i6);
