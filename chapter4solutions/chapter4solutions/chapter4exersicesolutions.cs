@@ -95,6 +95,14 @@ class Numbersbetween2integersdivisibleby5
 6. Write a program that reads two numbers from the console and prints the 
 greater of them. Solve the problem without using conditional 
 statements. 
+Console.Write("Enter number: ");
+int number1 = Int32.Parse(Console.ReadLine());
+Console.Write("Enter number: ");
+int number2 = Int32.Parse(Console.ReadLine());
+
+int start = Math.Min(number1, number2);
+int end = Math.Max(number1, number2);
+Console.WriteLine(start < end ? end: start);
 7. Write a program that reads five integer numbers and prints their 
 sum. If an invalid number is entered the program should prompt the user 
 to enter another number. 
@@ -108,20 +116,3 @@ prints all numbers in the range [1…n], each on a separate line.
 Fibonacci sequence: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, … 
 12. Write a program that calculates the sum (with precision of 0.001) of 
 the following sequence: 1 + 1/2 - 1/3 + 1/4 - 1/5 + … */
-
-/*5.6. Write a program that reads two numbers from the console and prints the 
-greater of them. Solve the problem without using conditional 
-statements.*/
-
-Console.Write("Enter number: ");
-int number1 = Int32.Parse(Console.ReadLine());
-Console.Write("Enter number: ");
-int number2 = Int32.Parse(Console.ReadLine());
-
-int start = Math.Min(number1, number2);
-int end = Math.Max(number1, number2);
-Console.WriteLine(start < end ? end: start);
-
-
-
-
